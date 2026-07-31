@@ -13,9 +13,9 @@
     <!-- link das animações -->
     <link rel="stylesheet" href="https://unpkg.com/aos@2.3.4/dist/aos.css">
     <!-- link do css -->
-    <link rel="stylesheet" href="../assets/css/home.css">
+    <link rel="stylesheet" href="<?php BASE_URL ?>assets/css/home.css">
     <!-- link do favicon -->
-    <link rel="icon" href="../assets/img/favicon/favicon.ico" type="image/x-icon">
+    <link rel="icon" href="<?php BASE_URL ?>assets/img/favicon/favicon.ico" type="image/x-icon">
 </head>
 
 <body>
@@ -25,7 +25,7 @@
         <header>
             <div class="nav-wrap">
                 <a href="#top" class="brand">
-                    <img src="../assets/img/logos/imagotipo2.png" alt="Logo da Clínica Metamorphe">
+                    <img src="<?php BASE_URL ?>assets/img/logos/imagotipo2.png" alt="Logo da Clínica Metamorphe">
                 </a>
                 <nav class="links">
                     <a href="#sobre">Sobre</a>
@@ -79,7 +79,7 @@
                             <path d="M210 250 C 250 170, 340 160, 400 210 C 450 250, 430 320, 360 320 C 300 320, 270 280, 300 240" stroke="#90B1CF" />
                         </svg>
                         <div class="photo-placeholder">
-                            <img src="../assets/img/foto_dra_gabriely.jpeg" alt="Foto da Dra. Gabriely">
+                            <img src="<?php BASE_URL ?>assets/img/foto_dra_gabriely.jpeg" alt="Foto da Dra. Gabriely">
                         </div>
                     </div>
                 </div>
@@ -93,7 +93,7 @@
             <section id="sobre">
                 <div class="container about-grid reveal">
                     <div class="about-photo">
-                        <img src="../assets/img/foto_dra_gabriely_atendendo.jpeg" alt="Foto da Dra. Gabriely">
+                        <img src="<?php BASE_URL ?>assets/img/foto_dra_gabriely_atendendo.jpeg" alt="Foto da Dra. Gabriely">
                     </div>
                     <div>
                         <span class="eyebrow">Sobre a psicóloga</span>
@@ -366,7 +366,7 @@
             <div class="container">
                 <div class="footer-grid">
                     <div class="footer-brand">
-                        <img src="../assets/img/logos/imagotipo1.png" alt="Clínica Metamorphe">
+                        <img src="<?php BASE_URL ?>assets/img/logos/imagotipo1.png" alt="Clínica Metamorphe">
                     </div>
                     <div class="footer-links">
                         <div>
@@ -403,7 +403,7 @@
         </a>
 
         <!-- Link para JavaScript -->
-        <script src="../assets/js/home.js"></script>
+        <script src="<?php BASE_URL ?>assets/js/home.js"></script>
 
         <!-- Link para animações AOS JS -->
         <script src="https://unpkg.com/aos@2.3.4/dist/aos.js"></script>
