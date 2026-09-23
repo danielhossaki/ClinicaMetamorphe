@@ -1,0 +1,19 @@
+{
+    "name": "Clínica Metamorphe",
+    "short_name": "Metamorphe",
+    "description": "Atendimento psicológico com a Dra. Gabriely Santos, presencial em São José dos Campos/SP ou online para todo o Brasil.",
+    "start_url": "./",
+    "scope": "./",
+    "display": "standalone",
+    "background_color": "#FAF4F0",
+    "theme_color": "#B98882",
+    "lang": "pt-BR",
+    "icons": [
+        {
+            "src": "./assets/img/logos/isotipo.png",
+            "sizes": "500x500",
+            "type": "image/png",
+            "purpose": "any"
+        }
+    ]
+}

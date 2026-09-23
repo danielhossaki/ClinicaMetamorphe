@@ -1,0 +1,20 @@
+# Dependências
+/vendor/
+/node_modules/
+
+# Variáveis de ambiente (nunca commitar segredos reais)
+.env
+
+# Logs
+npm-debug.log*
+
+# Cache do PHPUnit
+.phpunit.result.cache
+
+# Editores/IDE
+.vscode/
+.idea/
+
+# Sistema
+Thumbs.db
+.DS_Store

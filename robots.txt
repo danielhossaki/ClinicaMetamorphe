@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://www.clinicametamorphe.com.br/sitemap.xml
