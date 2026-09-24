@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 525" role="img" aria-labelledby="anxietyTitle">
+    <title id="anxietyTitle">Ilustração de círculos concêntricos e uma linha suave, representando calma e respiração</title>
+    <defs>
+        <linearGradient id="bgAnxiety" x1="0" y1="0" x2="1" y2="1">
+            <stop offset="0%" stop-color="#FAF4F0" />
+            <stop offset="100%" stop-color="#F0DDD8" />
+        </linearGradient>
+        <filter id="blurAnxiety" x="-50%" y="-50%" width="200%" height="200%">
+            <feGaussianBlur stdDeviation="55" />
+        </filter>
+    </defs>
+
+    <rect width="1200" height="525" fill="url(#bgAnxiety)" />
+
+    <circle cx="220" cy="130" r="170" fill="#90B1CF" opacity="0.35" filter="url(#blurAnxiety)" />
+    <circle cx="1010" cy="420" r="210" fill="#B98882" opacity="0.28" filter="url(#blurAnxiety)" />
+    <circle cx="640" cy="80" r="120" fill="#BDB0CA" opacity="0.22" filter="url(#blurAnxiety)" />
+
+    <!-- ondas de respiração -->
+    <path d="M100 440 C 200 390, 300 490, 400 440 S 600 390, 700 440 S 900 490, 1000 440 S 1150 400, 1150 400"
+        fill="none" stroke="#3F6488" stroke-width="3" stroke-linecap="round" opacity="0.45" />
+
+    <!-- círculos concêntricos (respiração / calma) -->
+    <g fill="none" stroke="#8C5F59" stroke-width="2" opacity="0.55">
+        <circle cx="600" cy="255" r="55" />
+        <circle cx="600" cy="255" r="95" />
+        <circle cx="600" cy="255" r="135" />
+        <circle cx="600" cy="255" r="175" />
+    </g>
+    <circle cx="600" cy="255" r="24" fill="#8C5F59" opacity="0.85" />
+</svg>

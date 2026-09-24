@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 525" role="img" aria-labelledby="childTitle">
+    <title id="childTitle">Ilustração lúdica com nuvem, estrelas e avião de papel representando a infância</title>
+    <defs>
+        <linearGradient id="bgChild" x1="0" y1="0" x2="1" y2="1">
+            <stop offset="0%" stop-color="#FAF4F0" />
+            <stop offset="100%" stop-color="#E6EEF5" />
+        </linearGradient>
+        <filter id="blurChild" x="-50%" y="-50%" width="200%" height="200%">
+            <feGaussianBlur stdDeviation="55" />
+        </filter>
+    </defs>
+
+    <rect width="1200" height="525" fill="url(#bgChild)" />
+
+    <circle cx="980" cy="120" r="190" fill="#BDB0CA" opacity="0.35" filter="url(#blurChild)" />
+    <circle cx="170" cy="430" r="200" fill="#90B1CF" opacity="0.3" filter="url(#blurChild)" />
+    <circle cx="560" cy="470" r="130" fill="#B98882" opacity="0.2" filter="url(#blurChild)" />
+
+    <!-- nuvem -->
+    <g transform="translate(190,150)" fill="#3F6488" opacity="0.4">
+        <circle cx="40" cy="55" r="34" />
+        <circle cx="82" cy="30" r="42" />
+        <circle cx="130" cy="48" r="32" />
+        <rect x="14" y="52" width="148" height="42" rx="21" />
+    </g>
+
+    <!-- estrelas -->
+    <g fill="#8C5F59" opacity="0.6">
+        <path d="M860 150 L868 168 L886 176 L868 184 L860 202 L852 184 L834 176 L852 168 Z" />
+        <path d="M940 250 L946 263 L959 269 L946 275 L940 288 L934 275 L921 269 L934 263 Z" />
+        <path d="M790 245 L795 256 L806 261 L795 266 L790 277 L785 266 L774 261 L785 256 Z" />
+    </g>
+
+    <!-- avião de papel -->
+    <g transform="translate(430,330) rotate(-10)" fill="#8C5F59" opacity="0.7">
+        <path d="M0 0 L230 48 L120 66 L92 122 L70 66 Z" />
+        <path d="M120 66 L230 48 L92 122 Z" opacity="0.5" />
+    </g>
+</svg>

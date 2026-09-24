@@ -1438,7 +1438,7 @@ footer {
 
 .legal-page h1 {
     font-size: clamp(28px, 3.6vw, 40px);
-    margin-bottom: 8px;
+    margin: 1.5rem 0 8px;
 }
 
 .legal-page .updated {
@@ -1475,7 +1475,6 @@ footer {
 
 .back-link {
     display: inline-block;
-    margin-bottom: 24px;
     font-size: 14px;
     color: var(--primary-deep);
 }
@@ -1500,6 +1499,28 @@ footer {
     transform: translateY(-3px);
     box-shadow: var(--shadow-md);
     border-color: var(--border-subtle-strong);
+}
+
+.blog-image {
+    border-radius: var(--radius-lg);
+    overflow: hidden;
+    margin-bottom: 24px;
+    box-shadow: var(--shadow-sm);
+}
+
+.blog-image img {
+    display: block;
+    width: 100%;
+    aspect-ratio: 1200 / 525;
+    object-fit: cover;
+}
+
+.blog-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 12px;
+    margin-bottom: 10px;
 }
 
 .blog-date {
